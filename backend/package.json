@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./index"
+  },
+  "dependencies": {
+    "@dagrejs/graphlib": "^2.1.4",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "pug": "2.0.0-beta11",
+    "redis": "^2.8.0",
+    "redisgraph.js": "^1.0.2",
+    "short-uuid": "^3.1.0",
+    "socket.io": "^2.2.0",
+    "xml-js": "^1.6.9",
+    "xml2js": "^0.4.19"
+  }
+}
