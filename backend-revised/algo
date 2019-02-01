@@ -1,0 +1,21 @@
+1. Create a workflow dictionary on startup -
+    sructure : {
+        workflow_name1: {...},
+        workflow_name2: {...}
+    }
+2. Create a single workflow 
+    structure: {
+        workflow_name: {
+            steps: {
+                actor_1: {...}
+            },
+            start: actor_1
+        }
+    }
+3. Actor: 
+    structure: {
+        actor_1: {
+            resolver:fn,
+            type: emitter/publisher
+        }
+    }
